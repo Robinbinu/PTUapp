@@ -1,0 +1,73 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.robin.fragments"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures{
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    implementation("org.mariuszgromada.math:MathParser.org-mXparser:5.0.6")
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.squareup.picasso:picasso:2.8'
+    // P.S: For Android Studio versions below 3.0, use compile keyword
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    dependencies {
+        implementation 'com.github.rkmobile2519:customedittext:1.0.0'
+    }
+
+
+
+    //Material Design Library
+   // implementation 'com.google.android.material:material:1.1.0'
+    //Open-Source Charting Lib
+    //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}
+apply plugin: 'com.android.application'
+
+dependencies {
+
+
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+}
+
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccbg"
+    tools:context=".elibrary">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.robin.fragments.TypeWriter
+        android:id="@+id/tw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="39dp"
+        android:text="The PTU Library \n has 1893 e-books\n, 78 e journals.It is a member of DELNET, MALIBNET and NDL."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/delnet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delnet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/homerec"
+        android:text="DELNET"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/ieee"
+        app:layout_constraintEnd_toStartOf="@+id/malinet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ebcentral"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/homerec"
+        android:text="E-Book\nCentral"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ieee"
+        app:layout_constraintEnd_toStartOf="@+id/ieee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ieee" />
+
+    <Button
+        android:id="@+id/asce"
+        android:layout_width="0dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/homerec"
+        android:text="ASCE\nJournals"
+        android:textSize="19sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/asme"
+        app:layout_constraintEnd_toStartOf="@+id/asme"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/malinet"
+        android:layout_width="0dp"
+        android:layout_height="109dp"
+
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/homerec"
+        android:text="MALIBNET"
+        android:textSize="19sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/delnet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/delnet" />
+
+    <Button
+        android:id="@+id/ieee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/homerec"
+        android:text="IEEE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/asme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ebcentral"
+        app:layout_constraintTop_toBottomOf="@+id/delnet" />
+
+    <Button
+        android:id="@+id/asme"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/homerec"
+        android:text="ASME
+Journals"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/asce"
+        app:layout_constraintTop_toBottomOf="@+id/ieee" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="218dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

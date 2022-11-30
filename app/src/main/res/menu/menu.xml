@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=""
+        android:id="@+id/uccalbut"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:iconTint="@color/white">
+    </item>
+    <item android:title=""
+        android:id="@+id/ucconvbut"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:iconTint="@color/white">
+    </item>
+    <item android:title=""
+        android:id="@+id/uchomebut"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:iconTint="@color/white">
+    </item>
+    <item
+        android:id="@+id/trfnav"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_newspaper_24"
+        android:iconTint="@color/white"
+        android:title="">
+
+    </item>
+    <item android:title=""
+        android:enabled="true"
+        android:id="@+id/uclogbut"
+        android:icon="@drawable/ic_baseline_web_stories_24"
+        android:iconTint="@color/white">
+    </item>
+
+</menu>

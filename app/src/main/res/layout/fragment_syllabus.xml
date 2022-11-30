@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".syllabus">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/csesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/homerec"
+                        android:text="CSE"
+                        android:textSize="35sp"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:id="@+id/ecesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="ECE"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/chesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:text="CHE"
+                        android:textSize="35sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:id="@+id/cesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="CE"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/eeesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:text="EEE"
+                        android:textSize="35sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:id="@+id/eiesyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="EIE"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/itsyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:text="IT"
+                        android:textSize="35sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:id="@+id/mechsyl"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="MECH"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/mectrsyl"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:text="MECTR"
+                        android:textSize="35sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="MECH"
+                        android:visibility="invisible"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:text="MECTR"
+                        android:textSize="35sp"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:text="MECH"
+                        android:visibility="invisible"
+                        android:textSize="35sp"
+                        android:background="@drawable/homerec"
+                        android:layout_margin="7dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

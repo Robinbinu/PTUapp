@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gpaprocess"
+    android:background="@drawable/ccbg">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="768dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub1"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub1"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub2"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub2"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub3"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub3"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub4"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub4"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub5"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:id="@+id/ti5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub5"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub6"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:id="@+id/ti6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub6"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub7"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:id="@+id/ti7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub7"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+
+                <ScrollView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sub8"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp"
+                        android:layout_marginEnd="8dp"
+                        />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:id="@+id/ti8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub8"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/sub9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Subject"
+                        android:textColor="@color/white"
+                        android:textSize="23sp" />
+                </ScrollView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:id="@+id/ti9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/white">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvsub9"
+                        android:layout_width="177dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:hint="grade"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp">
+
+                <Button
+                    android:id="@+id/gpacalc"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="30dp"
+
+                    android:layout_margin="10dp"
+                    android:text="CALCULATE" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:layout_margin="10dp"
+                    android:text="CALCULATE" />
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

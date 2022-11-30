@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107450276857",
+    "project_id": "ptuapp-e3ee1",
+    "storage_bucket": "ptuapp-e3ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107450276857:android:1a0e96712242962254bb28",
+        "android_client_info": {
+          "package_name": "com.robin.fragments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107450276857-cdso3pj0tpecvhcmkmeb12i73codruc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgV39x651foFIqFYUiptr4LoghFAbXg_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107450276857-cdso3pj0tpecvhcmkmeb12i73codruc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
